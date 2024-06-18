@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Constants.DbConnection">
+    <Position X="18" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants\DbConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Constants.StoredProcedures">
+    <Position X="16" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAACJAAAAAAAgAgEIAAgVJAZAgQAAAAEEIAABIAAA=</HashCode>
+      <FileName>Constants\StoredProcedures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.AchievementData" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>Data\AchievementData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.IdentityUserData" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IdentityUserData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.PlanningProjectData" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>Data\PlanningProjectData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.TaskData" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAGAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAIA=</HashCode>
+      <FileName>Data\TaskData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.TaskGroupData" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>Data\TaskGroupData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Data.UserData" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\UserData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.DbAccess.SqlDataAccess" BaseTypeListCollapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DbAccess\SqlDataAccess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Infrastructure.DataAccess.Extensions.ServiceCollectionExtensions">
+    <Position X="18" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ServiceCollectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PlanYourGoals.Infrastructure.DataAccess.Interfaces.Data.ICommonData&lt;T&gt;">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\Data\ICommonData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Infrastructure.DataAccess.Interfaces.Data.IExtendedData&lt;T&gt;">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Interfaces\Data\IExtendedData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Infrastructure.DataAccess.Interfaces.Data.IUserData&lt;T&gt;">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Data\IUserData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Infrastructure.DataAccess.Interfaces.ISqlDataAccess">
+    <Position X="18" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Interfaces\ISqlDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

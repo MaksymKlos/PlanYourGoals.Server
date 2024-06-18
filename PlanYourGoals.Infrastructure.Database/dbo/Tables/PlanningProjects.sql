@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[PlanningProjects]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [UserId] INT NOT NULL FOREIGN KEY REFERENCES Users(Id)
+)

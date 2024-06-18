@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlanYourGoals.Server.Application.Services.Constants.Bot">
+    <Position X="4" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Extensions.ServiceCollectionExtensions">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ServiceCollectionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Managers.AuthenticationManager" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\AuthenticationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Managers.IdentityManager" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\IdentityManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Models.NewIdentityUser">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NewIdentityUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.AchievementService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\AchievementService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.EmailSenderService" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\EmailSenderService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.HashService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\HashService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.OpenAIService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Services\OpenAIService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.PlanningProjectService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\PlanningProjectService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.TaskGroupService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\TaskGroupService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.TaskService" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\TaskService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlanYourGoals.Server.Application.Services.Services.UserService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAIAAAAA=</HashCode>
+      <FileName>Services\UserService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Managers.Interfaces.IAuthenticationManager" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Interfaces\IAuthenticationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Managers.Interfaces.IIdentityManager" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\Interfaces\IIdentityManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IAchievementService" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\Interfaces\IAchievementService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IEmailSenderService" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IEmailSenderService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IHashService" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IHashService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IOpenAIService" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IOpenAIService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IPlanningProjectService" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\Interfaces\IPlanningProjectService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.ITaskGroupService" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\Interfaces\ITaskGroupService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.ITaskService" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Services\Interfaces\ITaskService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlanYourGoals.Server.Application.Services.Services.Interfaces.IUserService" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAIAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
